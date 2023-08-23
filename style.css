@@ -1,0 +1,405 @@
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 768px) {
+  .container {
+    justify-content: space-between; /* adjust as needed */
+  }
+}
+
+/* For mobile devices */
+@media (max-width: 767px) {
+  .container {
+    flex-direction: column; /* or any other layout for mobile */
+    align-items: flex-start; /* adjust as needed */
+  }
+}
+@media (min-width: 768px)
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.first-page {
+    width: 100vw;
+    height: 100vh;
+    background: url(nature-1691568346058-8705.jpg);
+    background-size: cover;
+     
+    background-position: center;
+    background-repeat: no-repeat
+}
+.logo{
+    flex: 1;
+    font-size: 50;
+    padding: 0px;
+    margin-left: 0px;
+    font-family: sans-serif;
+    justify-content: flex-start;
+    text-align: start;
+    color:chartreuse
+        
+    
+}
+.nav-bar{
+    display: flex;
+    flex-flow: row wrap;
+    width: 90%;
+    height: 10%;
+    align-items: center;
+    justify-content:center;
+    top: 0;
+    z-index: 1;
+    
+}
+    
+ul.menu{
+    flex: 1;
+    display: flex;
+    flex-flow: row wrap;
+    color: cornsilk
+}
+
+.menu li{
+    flex: 1;
+    list-style-type: none;
+    font-size: 16px;
+    font-family: monospace;
+    text-align: center
+}
+.menu li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: antiquewhite
+}
+.menu li a:hover{
+    color: pink;
+    text-decoration: underline
+}
+.banner  {
+
+
+background-size: cover cover;
+ background-size: cover;
+  background-position: center;
+  /*overflow: hidden;*/
+  width: 100%;
+  height: 50%;
+  text-align: center;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner::before {
+  content: "";
+  position: absolute;
+  display: block;
+  top: 40;
+  left: 0;
+  bottom: 50;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.2);
+  
+}
+.banner-text-item {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+.banner-heading {
+  flex: 1;
+}
+.banner-heading h1 {
+  font-size: 80px;
+  font-weight: normal;
+  color:skyblue;
+  font-family:sans-serif;
+}
+.banner-text-item .form {
+  flex: 1;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 5px;
+  width: 70%;
+    height: 100%;
+  padding: 1% 2%;
+}
+.banner-text-item input,
+.banner-text-item .date,
+.banner-text-item .book {
+  padding: 15px;
+  margin-right: 10px;
+  font-size: 18px;
+  font-family: Roboto;
+  border-radius: 5px;
+  outline: 0;
+  border: none;
+}
+.banner-text-item input {
+  width: 50%;
+  flex: 2;
+}
+.banner-text-item .date {
+  width: 20%;
+  flex: 1;
+}
+.banner-text-item .book {
+  width: 20%;
+  flex: 1;
+}
+.banner-text-item .book {
+  text-decoration: none;
+  color: #000;
+  text-transform: uppercase;
+  padding: 15px;
+  cursor: pointer;
+  background-color:darkseagreen;
+  font-size: 16px;
+  font-weight: normal;
+  font-family: "Barlow Condensed";
+  width: 20%;
+    height: 50%
+}
+
+.rest-of-pages {
+    background-image: url("jeremy-bishop-8xznAGy4HcY-unsplash.jpg");
+   
+    background-size: cover
+        
+}
+
+.content {
+    padding: 50px;
+    
+}
+h2{
+    text-align:center;
+    font-family:monospace;
+    color:black;
+    font-size: 50px;
+   justify-content: flex-start;
+   align-content: center;
+    justify-items: start
+}
+
+.page-content {
+   
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    color: antiquewhite;
+   
+    text-decoration: underline;
+    font-size: 30px;
+    font-family: monospace;
+    padding-top: 0px/* Fill the available height */
+}
+.page-content {
+    /* Your page-content styles */
+}
+
+.image-frames {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.image-frame {
+    border: 5px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    width: calc(50% - 20px);
+    box-sizing:border-box;
+    border-bottom-style:inset;
+    border-top-style:outset
+}
+
+.image-frame img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+
+
+.frame-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: floralwhite
+}
+
+.frame-content img {
+    max-width: 100%;
+    max-height: 100%;
+    color: aquamarine
+}
+
+.frame-content p {
+    margin-top: 10px;
+   
+}
+
+.banner__container{
+    background-image: url(travel-concept-with-baggage.jpg);
+    padding: 300px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: left;
+    color: antiquewhite
+    
+    
+}
+
+
+
+
+footer {
+  background-color:black;
+  padding: 50px;
+}
+
+/* Style the "About Us" section */
+.about-us {
+  text-align: center;
+    color: goldenrod;
+    font-family: sans-serif;
+    font-size: 30px;
+    
+}
+
+
+
+
+.about-us p {
+  font-size: 40px;
+  margin-bottom: 10px;
+    text-decoration:none;
+    color: goldenrod
+
+}
+
+
+
+
+.social-icons {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Align items horizontally */
+  justify-content: center; /* Align items vertically */
+  height: 50vh; /* Use viewport height for vertical alignment */
+}
+
+.social-icons a {
+  margin: 10px; /* Add spacing between icons */
+  transition: transform 0.2s ease;
+}
+
+.social-icons a:hover {
+  transform: scale(1.1);
+}
+
+
+.p{
+    
+    
+    text-align: center;
+    justify-content: center;
+    color: darkred
+}
+
+
+
+
+
+.centered-content p {
+  text-align:end; /* Center the content horizontally */
+  /* Position the content */
+  width: 70%; /* Full width */
+  padding: 200px; /* Add padding to the content */
+  background-image: url(pietro-de-grandi-T7K4aEPoGGk-unsplash.jpg); 
+    color: gold;
+    font-family: sans-serif;
+   
+    text-decoration: underline;
+    background-size: cover;
+    background-position: center;
+    font-size: 60px
+        /* Optional: Add background color */
+}
+
+
+    
+
+    
+
+    
+    
+    
+    
+
+
+
+
+
+
+
+   
+    
+
+
+
+
+
+
+
+
+
+@media (max-width: 991px)
+{
+  html
+  {
+    font-size: 60%
+  }
+  header
+  {
+    padding: 1rem 2rem;
+
+  }
+  heading .logo img
+  {
+    height: 7rem;
+
+  }
+}
+@media (max-width: 780px)
+{
+   header .logo img
+   {
+    height: 7rem;
+
+   }
+   header ,icons #menu
+   {
+    display: inline-block;
+
+   }
